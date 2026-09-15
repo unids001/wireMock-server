@@ -1,0 +1,4 @@
+{
+  "message": "Hello from the standalone WireMock server",
+  "source": "wiremock/colombian-restaurant/__files/hello.json"
+}

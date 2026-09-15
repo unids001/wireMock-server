@@ -1,0 +1,13 @@
+{
+  "restaurant": "Sabores de Colombia",
+  "currency": "COP",
+  "description": "Typical Colombian restaurant mock menu",
+  "items": [
+    { "id": "bandeja-paisa", "name": "Bandeja Paisa", "price": 28000 },
+    { "id": "ajiaco", "name": "Ajiaco", "price": 24000 },
+    { "id": "arepas-con-queso", "name": "Arepas con Queso", "price": 12000 },
+    { "id": "empanadas", "name": "Empanadas", "price": 10000 },
+    { "id": "sancocho", "name": "Sancocho", "price": 26000 },
+    { "id": "calentado", "name": "Calentado", "price": 22000 }
+  ]
+}

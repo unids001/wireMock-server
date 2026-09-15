@@ -1,0 +1,8 @@
+{
+  "id": "bandeja-paisa",
+  "name": "Bandeja Paisa",
+  "category": "Lunch",
+  "price": 28000,
+  "currency": "COP",
+  "available": true
+}

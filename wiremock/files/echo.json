@@ -1,4 +1,0 @@
-{
-  "message": "Echo response from the standalone WireMock server",
-  "hint": "Replace this file or add a new mapping under wiremock/mappings"
-}

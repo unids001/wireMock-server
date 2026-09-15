@@ -1,0 +1,11 @@
+{
+  "restaurant": "Sabores de Colombia",
+  "categories": [
+    "Breakfast",
+    "Lunch",
+    "Dinner",
+    "Snacks",
+    "Desserts",
+    "Drinks"
+  ]
+}

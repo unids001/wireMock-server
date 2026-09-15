@@ -1,0 +1,4 @@
+{
+  "error": "CONFLICT",
+  "message": "Order cannot transition from the current state"
+}

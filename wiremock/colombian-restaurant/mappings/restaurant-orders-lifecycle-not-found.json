@@ -1,0 +1,14 @@
+{
+  "priority": 10,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/restaurant/orders/[^/]+/(confirm|prepare|ready|deliver|cancel)"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "errors/not-found.json"
+  }
+}

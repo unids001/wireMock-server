@@ -1,0 +1,22 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/restaurant/orders",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$.customer.name" },
+      { "matchesJsonPath": "$.items[0]" },
+      { "matchesJsonPath": "$.payment.method" }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "order-received.json",
+    "transformers": ["response-template"]
+  },
+  "scenarioName": "Order Lifecycle",
+  "newScenarioState": "RECEIVED"
+}

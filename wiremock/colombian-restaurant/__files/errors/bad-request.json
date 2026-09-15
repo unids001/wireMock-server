@@ -1,0 +1,4 @@
+{
+  "error": "BAD_REQUEST",
+  "message": "Missing required fields or invalid request body"
+}

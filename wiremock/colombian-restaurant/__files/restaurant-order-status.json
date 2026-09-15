@@ -1,0 +1,10 @@
+{
+  "orderId": "order-1001",
+  "status": "PREPARING",
+  "items": [
+    { "id": "bandeja-paisa", "quantity": 1 },
+    { "id": "empanadas", "quantity": 2 }
+  ],
+  "total": 48000,
+  "currency": "COP"
+}

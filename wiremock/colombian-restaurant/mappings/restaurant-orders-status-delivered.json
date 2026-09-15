@@ -1,0 +1,16 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/restaurant/orders/order-1001"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "order-delivered.json"
+  },
+  "scenarioName": "Order Lifecycle",
+  "requiredScenarioState": "DELIVERED"
+}

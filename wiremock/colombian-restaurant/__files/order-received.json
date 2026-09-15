@@ -1,0 +1,6 @@
+{
+  "orderId": "order-1001",
+  "status": "RECEIVED",
+  "currency": "COP",
+  "estimatedMinutes": 25
+}

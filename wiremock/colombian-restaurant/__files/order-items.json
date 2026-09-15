@@ -1,0 +1,9 @@
+{
+  "orderId": "order-1001",
+  "items": [
+    { "id": "bandeja-paisa", "quantity": 1, "price": 28000 },
+    { "id": "empanadas", "quantity": 2, "price": 10000 }
+  ],
+  "total": 48000,
+  "currency": "COP"
+}

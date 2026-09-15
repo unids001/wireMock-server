@@ -1,0 +1,15 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/restaurant/orders/order-1001/deliver"
+  },
+  "response": {
+    "status": 409,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "errors/conflict.json"
+  },
+  "scenarioName": "Order Lifecycle"
+}

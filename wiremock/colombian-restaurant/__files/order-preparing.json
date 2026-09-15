@@ -1,0 +1,6 @@
+{
+  "orderId": "order-1001",
+  "status": "PREPARING",
+  "currency": "COP",
+  "estimatedMinutes": 15
+}
