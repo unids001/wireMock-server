@@ -1,0 +1,19 @@
+{
+  "priority": 0,
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/restaurant/orders",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$.items[?(@.dishId =~ /ajiaco.*/i)]" },
+      { "matchesJsonPath": "$.customer.name" },
+      { "matchesJsonPath": "$.payment.method" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "errors/insufficient-ingredients.json"
+  }
+}
