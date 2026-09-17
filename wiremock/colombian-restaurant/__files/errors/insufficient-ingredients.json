@@ -1,3 +1,6 @@
 {
-  "error": "insufficient ingredients"
+  "orderId": "ERR-500",
+  "status": "REJECTED (Insufficient Ingredients)",
+  "currency": "COP",
+  "estimatedMinutes": 0
 }
